@@ -1,0 +1,156 @@
+:root {
+  --primary-color: #357b70;
+  --secondary-color: #e0b354;
+  --dark-grey: #2b2b2b;
+}
+body {
+    background-color:#2b2b2b;
+    }
+/*
+Colors used
+
+Text Color (Dark Gray): #2b2b2b;
+Primary Color (Purple): #357b70;
+Secondary Color (Orange): #e0b354;
+ */
+
+body {
+  font-family: 'Rubik Bubbles', cursive;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight:50px
+}
+.profile {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+.profile {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.profile {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+* {
+  box-sizing: border-box;
+}
+.container-1{
+  display:flex;
+  column-gap: normal;
+  color: pink
+    }
+ .container-1 div{
+    flex direction:colomn;
+   border:5px #ccc solid;
+   padding:15px
+ }
+ .project-1{
+   flex:1;
+     order:1;
+ }
+ .project-2{
+   flex:1;
+   order:2;
+ }
+ .project-3{
+   flex:1;
+     order:3;
+
+ }
+ .project-4{
+   flex:1;
+     order:4;
+ }
+ .project-5{
+   flex:1;
+     order:5;
+ }
+ .project-6{
+   flex:1;
+     order:6;
+ }
+.page-footer {
+    clear: both;
+    display: flex;
+}
+a {
+  color: #357b70;
+}
+
+a:hover {
+  /* No underlining when hovering over a link */
+  text-decoration:opacity;
+}
+a:visited {
+  /* visited link */
+  color: #05676e;
+}
+
+a:active {
+  /* selected link */
+  color: #489c79;
+}
+a:hover, a:focus {
+  /* No underlining when hovering over a link */
+  text-decoration: none;
+}
+button__secondary {
+  background-color:black;
+  color:red;
+  opacity: 0.8;
+}
+.navigation-list__item--active {
+  text-decoration: none;
+}
+media all and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 750px){
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 750px) {
+  .grid {
+    grid-gap: 10px;
+  }
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  @keyframes color-change {
+   from {
+     fill:blue
+   }
+   to {
+     fill:yellow
+   }
+ }
+ @keyframes teddy-move {
+  from {
+    transform: translate(o, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+.teddy {
+  animation-duration: 4s;
+  animation-name:teddy-move
+  animation-iteration-count: infinite;
+  animation-direction: right;
+  animation-timing-function: linear;
+}

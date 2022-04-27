@@ -1,0 +1,209 @@
+body {
+    background-color:#2b2b2b;
+    }
+/*
+Colors used
+
+Text Color (Dark Gray): #2b2b2b;
+Primary Color (Purple): #357b70;
+Secondary Color (Orange): #e0b354;
+ */
+
+body {
+  font-family: 'Rubik Bubbles', cursive;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight:50px
+}
+.profile {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+.profile {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.profile {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container-1{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-column-gap: normal;
+     -moz-column-gap: normal;
+          column-gap: normal;
+  color: pink
+    }
+ .container-1 div{
+    border:5px #ccc solid;
+   padding:15px
+ }
+ .project-1{
+   -webkit-box-flex:1;
+       -ms-flex:1;
+           flex:1;
+     -webkit-box-ordinal-group:2;
+         -ms-flex-order:1;
+             order:1;
+ }
+ .project-2{
+   -webkit-box-flex:1;
+       -ms-flex:1;
+           flex:1;
+   -webkit-box-ordinal-group:3;
+       -ms-flex-order:2;
+           order:2;
+ }
+ .project-3{
+   -webkit-box-flex:1;
+       -ms-flex:1;
+           flex:1;
+     -webkit-box-ordinal-group:4;
+         -ms-flex-order:3;
+             order:3;
+
+ }
+ .project-4{
+   -webkit-box-flex:1;
+       -ms-flex:1;
+           flex:1;
+     -webkit-box-ordinal-group:5;
+         -ms-flex-order:4;
+             order:4;
+ }
+ .project-5{
+   -webkit-box-flex:1;
+       -ms-flex:1;
+           flex:1;
+     -webkit-box-ordinal-group:6;
+         -ms-flex-order:5;
+             order:5;
+ }
+ .project-6{
+   -webkit-box-flex:1;
+       -ms-flex:1;
+           flex:1;
+     -webkit-box-ordinal-group:7;
+         -ms-flex-order:6;
+             order:6;
+ }
+.page-footer {
+    clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+a {
+  color: #357b70;
+}
+
+a:hover {
+  /* No underlining when hovering over a link */
+  -webkit-text-decoration:opacity;
+          text-decoration:opacity;
+}
+a:visited {
+  /* visited link */
+  color: #05676e;
+}
+
+a:active {
+  /* selected link */
+  color: #489c79;
+}
+a:hover, a:focus {
+  /* No underlining when hovering over a link */
+  text-decoration: none;
+}
+button__secondary {
+  background-color:black;
+  color:red;
+  opacity: 0.8;
+}
+.navigation-list__item--active {
+  text-decoration: none;
+}
+media all and (max-width: 500px) {
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 750px){
+  .grid {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 750px) {
+    }
+  .grid {
+    grid-gap: 10px;
+  }
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  @-webkit-keyframes color-change {
+   from {
+     fill:blue
+   }
+   to {
+     fill:yellow
+   }
+ }
+  @keyframes color-change {
+   from {
+     fill:blue
+   }
+   to {
+     fill:yellow
+   }
+ }
+ @-webkit-keyframes teddy-move {
+  from {
+    -webkit-transform: translate(o, 50px);
+            transform: translate(o, 50px);
+  }
+  to {
+    -webkit-transform: translate(200px, 50px);
+            transform: translate(200px, 50px);
+  }
+}
+ @keyframes teddy-move {
+  from {
+    -webkit-transform: translate(o, 50px);
+            transform: translate(o, 50px);
+  }
+  to {
+    -webkit-transform: translate(200px, 50px);
+            transform: translate(200px, 50px);
+  }
+}
+.teddy {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-name:teddy-move;
+          animation-name:teddy-move;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: right;
+          animation-direction: right;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;}
